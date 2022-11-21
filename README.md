@@ -1,4 +1,4 @@
-# maximum_matching_bipartite_graph
+# Bipartite maximum matching
 The code is a function that takes in two parameters, s and t. It then creates a vector of vectors called residual which is the result of bfs(s,t).
 The function then iterates through each element in the residual vector to find the maximum flow from one end to another.
 The code starts by creating an empty queue q with size 1.
