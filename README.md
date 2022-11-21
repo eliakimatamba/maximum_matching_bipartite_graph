@@ -5,7 +5,8 @@ The code starts by creating an empty queue q with size 1.
 Then it pushes s onto the queue and sets ```visited[s] = 1```.
 Next, it sets ```path[s] = -1``` so that when we get to this point there will be no paths left for us to follow back up from here.
 Then 
-```while (!q.empty()) {
+```
+while (!q.empty()) {
       int u = q.front(); 
       q.pop(); if (u == t) break; 
       for (int v=0; v 0) { q .push(v); 
@@ -16,7 +17,8 @@ Then
       } 
       if (visited[t] == 0) 
         return 0; 
-       return 1;```
+       return 1;
+```
 The code attempts to calculate the maximum flow in a network.
 The code iterates through all of the nodes in the network, and calculates the flow from one node to another.
 The first line of code creates a vector > called residual.
